@@ -21,11 +21,11 @@ return {
       {
         name = "notes",
         path = "~/vaults/notes",
-      }
+      },
     },
 
     -- change the default location of new notes
-    notes_subdir = "0. Inbox",
+    notes_subdir = "Inbox",
     -- fix the randomly generated titles, I don't like that
     note_id_func = function(title)
       if title == nil then
@@ -34,12 +34,10 @@ return {
       return title
     end,
     daily_notes = {
-      folder = "1. Journal/",
+      folder = "Journal/",
       date_format = "%Y/%m/%Y-%m-%d",
-    }
-
+    },
   },
-
 
   --
 }
