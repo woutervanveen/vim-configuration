@@ -15,7 +15,7 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.lang.rust" },
     -- { import = "lazyvim.plugins.extras.lang.java" },
     { import = "lazyvim.plugins.extras.editor.aerial" },
-    -- { import = "lazyvim.plugins.extras.lang.scala" },
+    { import = "lazyvim.plugins.extras.lang.scala" },
     -- { import = "lazyvim.plugins.extras.lang.markdown" },
     -- { import = "lazyvim.plugins.extras.lang.typescript" },
     -- { import = "lazyvim.plugins.extras.lang.json" },
